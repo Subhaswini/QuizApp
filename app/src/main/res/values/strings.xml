@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">QuizApp</string>
+    <string name="text1">Denmark</string>
+    <string name="text12">Identify the flag</string>
+    <string name="text2">Afghanistan</string>
+    <string name="text3">Uzbekistan</string>
+    <string name="text4">Yugaslavia</string>
+    <string name="text5">China</string>
+    <string name="text6">Japan</string>
+    <string name="text7">South Africa</string>
+    <string name="text8">New Zealand</string>
+    <string name="text9">India</string>
+    <string name="text10">Pakistan</string>
+    <string name="text11">Malaysia</string>
+
+
+
+
 </resources>
