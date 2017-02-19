@@ -13,7 +13,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
         <TextView
             android:layout_width="match_parent"
@@ -31,7 +32,8 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:id="@+id/radiogroup">
 
             <RadioButton
                 android:id="@+id/yes_radio_button"
@@ -58,7 +60,7 @@
                 android:id="@+id/no_radio_button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/text3"
+                android:text="@string/text4"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 
@@ -66,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="@string/text12" />
+            android:text="@string/text14" />
 
         <ImageView
             android:id="@+id/photo_image_view1"
@@ -113,7 +115,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="@string/text12" />
+            android:text="@string/text15" />
 
         <ImageView
             android:id="@+id/photo_image_view3"
@@ -142,6 +144,63 @@
             android:layout_height="wrap_content"
             android:text="@string/text11"
             android:textAppearance="?android:textAppearanceMedium" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/text16" />
+
+        <ImageView
+            android:id="@+id/photo_image_view4"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/spainflag" />
+        <EditText
+            android:id="@+id/album_description_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text13"
+            android:inputType="textMultiLine" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/text17" />
+
+        <ImageView
+            android:id="@+id/photo_image_view5"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/skflag" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:entries="@array/array_name"
+            android:id="@+id/spinnersample"
+            android:layout_height="60dp">
+        </Spinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text18" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text19" />
+        </LinearLayout>
+
 
     </LinearLayout>
+
 </ScrollView>
+

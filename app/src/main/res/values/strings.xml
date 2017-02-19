@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">QuizApp</string>
     <string name="text1">Denmark</string>
-    <string name="text12">Identify the flag</string>
+    <string name="text12">1)Identify the flag</string>
     <string name="text2">Afghanistan</string>
     <string name="text3">Uzbekistan</string>
     <string name="text4">Yugaslavia</string>
@@ -12,6 +12,23 @@
     <string name="text9">India</string>
     <string name="text10">Pakistan</string>
     <string name="text11">Malaysia</string>
+    <string name="text13">Enter the name of the country </string>
+    <string name="text14">2)Identify the flag </string>
+    <string name="text15">3)Identify the flag </string>
+    <string name="text16">4)Identify the flag </string>
+    <string name="text17">5)Identify the flag </string>
+    <string name="text18">Submit</string>
+    <string name="text19">Take the quiz again </string>
+
+
+    <string-array name="array_name">
+        <item>United Kingdom</item>
+        <item>South Korea</item>
+        <item>Brazil</item>
+        <item>Israel</item>
+    </string-array>
+
+
 
 
 
