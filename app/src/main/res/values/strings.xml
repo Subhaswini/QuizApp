@@ -1,36 +1,43 @@
 <resources>
     <string name="app_name">QuizApp</string>
-    <string name="text1">Denmark</string>
-    <string name="text12">1)Identify the flag</string>
-    <string name="text2">Afghanistan</string>
-    <string name="text3">Uzbekistan</string>
-    <string name="text4">Yugaslavia</string>
-    <string name="text5">China</string>
-    <string name="text6">Japan</string>
-    <string name="text7">South Africa</string>
-    <string name="text8">New Zealand</string>
-    <string name="text9">India</string>
-    <string name="text10">Pakistan</string>
-    <string name="text11">Malaysia</string>
-    <string name="text13">Enter the name of the country </string>
-    <string name="text14">2)Identify the flag </string>
-    <string name="text15">3)Identify the flag </string>
-    <string name="text16">4)Identify the flag </string>
-    <string name="text17">5)Identify the flag </string>
-    <string name="text18">Submit</string>
-    <string name="text19">Take the quiz again </string>
-
-
-    <string-array name="array_name">
-        <item>United Kingdom</item>
-        <item>South Korea</item>
-        <item>Brazil</item>
-        <item>Israel</item>
-    </string-array>
-
-
-
-
-
-
+    <string name="option1">Denmark</string>
+    <string name="option2">Afghanistan</string>
+    <string name="option3">Uzbekistan</string>
+    <string name="option4">Yugaslavia</string>
+    <string name="prev">Previous Question</string>
+    <string name="next">Next Question</string>
+    <string name="question1">1.Identify the flag</string>
+    <string name="question2">2.Choose the correct option</string>
+    <string name="question3">3. Check all the Names for this flag</string>
+    <string name="question4">4. Enter the Correct Country to which the flag belongs to</string>
+    <string name="question5">5. Choose the Correct option</string>
+    <string name="q2option1">China</string>
+    <string name="q2option2">Japan</string>
+    <string name="q2option3">South Africa</string>
+    <string name="q2option4">New Zealand</string>
+    <string name="q3option1">India,Brazil</string>
+    <string name="q3option2">Pakistan,Brazil</string>
+    <string name="q3option3">Pakistan,Malaysia</string>
+    <string name="q3option4">Brazil,Pakistan</string>
+    <string name="q4option">Enter the name of the Country </string>
+    <string name="q5option1">United Kingdom</string>
+    <string name="q5option2">South korea</string>
+    <string name="q5option3">Brazil</string>
+    <string name="q5option4">Israel</string>
+    <string name="submit">SUBMIT</string>
+    <string name="reset">Take the Quiz Again</string>
+    <string name="q1answer">Denmark</string>
+    <string name="q2answer">Japan</string>
+    <string name="q3answer">Pakistan,Brazil</string>
+    <string name="q4answer">Spain</string>
+    <string name="q5answer">South korea</string>
+    <string name="q1Optanswer">Denmark</string>
+    <string name="q2Optanswer">Japan</string>
+    <string name="q3Optanswer1">Pakistan</string>
+    <string name="q3Optanswer2">Brazil</string>
+    <string name="q4Optanswer">Spain</string>
+    <string name="q5Optanswer">South korea</string>
+    <string name="resultmsg">Your Score is : </string>
+    <string name="userMsg">Your Answer : </string>
+    <string name="correctMsg">Correct Answer : </string>
 </resources>
